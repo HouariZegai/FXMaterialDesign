@@ -1,7 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="" />
+    <list default="true" id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/jfoenix_8_0_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/jfoenix-8.0.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/houarizegai/javafxmaterialdesign/java/controllers/checkboxController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/houarizegai/javafxmaterialdesign/resources/views/checkboxview.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaFXMaterialDesign.iml" beforeDir="false" afterPath="$PROJECT_DIR$/JavaFXMaterialDesign.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaFXMaterialDesign/com/houarizegai/javafxmaterialdesign/java/controllers/MainController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaFXMaterialDesign/com/houarizegai/javafxmaterialdesign/java/controllers/MainController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaFXMaterialDesign/com/houarizegai/javafxmaterialdesign/resources/views/Main.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaFXMaterialDesign/com/houarizegai/javafxmaterialdesign/resources/views/Main.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/houarizegai/javafxmaterialdesign/java/controllers/MainController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/houarizegai/javafxmaterialdesign/java/controllers/MainController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/houarizegai/javafxmaterialdesign/resources/views/Main.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/houarizegai/javafxmaterialdesign/resources/views/Main.fxml" afterDir="false" />
+    </list>
     <ignored path="JavaFxApplication.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="$PROJECT_DIR$/out/" />
@@ -91,47 +103,213 @@
         </counts>
       </usages-collector>
     </session>
+    <session id="-608872484">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="1" />
+          <entry key="project.open.time.0" value="1" />
+          <entry key="project.open.time.7" value="1" />
+          <entry key="project.opened" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="fxml" value="4" />
+          <entry key="java" value="4" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="JAVA" value="4" />
+          <entry key="XML" value="4" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="java" value="71" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="JAVA" value="71" />
+        </counts>
+      </usages-collector>
+    </session>
   </component>
   <component name="FavoritesManager">
     <favorites_list name="JavaFxApplication" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/houarizegai/javafxmaterialdesign/java/controllers/MainController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="96">
+              <caret line="19" column="36" lean-forward="true" selection-start-line="19" selection-start-column="36" selection-end-line="19" selection-end-column="36" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/houarizegai/javafxmaterialdesign/resources/views/Main.fxml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="765">
+              <caret line="45" column="40" selection-start-line="45" selection-start-column="40" selection-end-line="45" selection-end-column="40" />
+            </state>
+          </provider>
+          <provider editor-type-id="JavaFX-Scene-Builder" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/houarizegai/javafxmaterialdesign/java/controllers/SlideShowController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="15" column="40" selection-start-line="15" selection-start-column="40" selection-end-line="15" selection-end-column="40" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/houarizegai/javafxmaterialdesign/resources/views/checkboxview.fxml">
+          <provider editor-type-id="text-editor">
+            <state relative-caret-position="187">
+              <caret line="11" column="49" selection-start-line="11" selection-start-column="49" selection-end-line="11" selection-end-column="49" />
+            </state>
+          </provider>
+          <provider selected="true" editor-type-id="JavaFX-Scene-Builder" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/houarizegai/javafxmaterialdesign/resources/views/chechBoxview.fxml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="272">
+              <caret line="16" column="29" selection-start-line="16" selection-start-column="29" selection-end-line="16" selection-end-column="29" />
+            </state>
+          </provider>
+          <provider editor-type-id="JavaFX-Scene-Builder" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/houarizegai/javafxmaterialdesign/resources/views/SlideShow.fxml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="204">
+              <caret line="12" column="10" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="10" />
+              <folding>
+                <element signature="n#StackPane#0;n#!!top" />
+                <element signature="n#children#0;n#StackPane#0;n#!!top" />
+                <element signature="n#VBox#0;n#children#0;n#StackPane#0;n#!!top" />
+                <element signature="n#children#0;n#VBox#0;n#children#0;n#StackPane#0;n#!!top" />
+                <element signature="n#VBox#0;n#children#0;n#VBox#0;n#children#0;n#StackPane#0;n#!!top" />
+                <element signature="n#children#0;n#VBox#0;n#children#0;n#VBox#0;n#children#0;n#StackPane#0;n#!!top" />
+                <element signature="n#ImageView#0;n#children#0;n#VBox#0;n#children#0;n#StackPane#0;n#!!top" />
+                <element signature="n#image#0;n#ImageView#0;n#children#0;n#VBox#0;n#children#0;n#StackPane#0;n#!!top" />
+                <element signature="n#padding#0;n#VBox#0;n#children#0;n#StackPane#0;n#!!top" />
+                <element signature="n#VBox#1;n#children#0;n#StackPane#0;n#!!top" />
+                <element signature="n#children#0;n#VBox#1;n#children#0;n#StackPane#0;n#!!top" />
+                <element signature="n#VBox#0;n#children#0;n#VBox#1;n#children#0;n#StackPane#0;n#!!top" />
+                <element signature="n#children#0;n#VBox#0;n#children#0;n#VBox#1;n#children#0;n#StackPane#0;n#!!top" />
+                <element signature="n#ImageView#0;n#children#0;n#VBox#1;n#children#0;n#StackPane#0;n#!!top" />
+                <element signature="n#image#0;n#ImageView#0;n#children#0;n#VBox#1;n#children#0;n#StackPane#0;n#!!top" />
+                <element signature="n#padding#0;n#VBox#1;n#children#0;n#StackPane#0;n#!!top" />
+                <element signature="n#VBox#2;n#children#0;n#StackPane#0;n#!!top" />
+                <element signature="n#children#0;n#VBox#2;n#children#0;n#StackPane#0;n#!!top" />
+                <element signature="n#VBox#0;n#children#0;n#VBox#2;n#children#0;n#StackPane#0;n#!!top" />
+                <element signature="n#children#0;n#VBox#0;n#children#0;n#VBox#2;n#children#0;n#StackPane#0;n#!!top" />
+                <element signature="n#ImageView#0;n#children#0;n#VBox#2;n#children#0;n#StackPane#0;n#!!top" />
+                <element signature="n#image#0;n#ImageView#0;n#children#0;n#VBox#2;n#children#0;n#StackPane#0;n#!!top" />
+                <element signature="n#StackPane.margin#0;n#VBox#2;n#children#0;n#StackPane#0;n#!!top" />
+                <element signature="n#padding#0;n#VBox#2;n#children#0;n#StackPane#0;n#!!top" />
+                <element signature="n#VBox#3;n#children#0;n#StackPane#0;n#!!top" />
+                <element signature="n#children#0;n#VBox#3;n#children#0;n#StackPane#0;n#!!top" />
+                <element signature="n#HBox#0;n#children#0;n#VBox#3;n#children#0;n#StackPane#0;n#!!top" />
+                <element signature="n#children#0;n#HBox#0;n#children#0;n#VBox#3;n#children#0;n#StackPane#0;n#!!top" />
+                <element signature="n#StackPane.margin#0;n#VBox#3;n#children#0;n#StackPane#0;n#!!top" />
+                <element signature="n#padding#0;n#VBox#3;n#children#0;n#StackPane#0;n#!!top" />
+              </folding>
+            </state>
+          </provider>
+          <provider editor-type-id="JavaFX-Scene-Builder" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/houarizegai/javafxmaterialdesign/java/controllers/checkboxController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="10" selection-start-line="10" selection-end-line="10" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/houarizegai/javafxmaterialdesign/java/launch/Launcher.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="17" selection-start-line="17" selection-end-line="17" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="package-info" />
-        <option value="FxmlFile" />
         <option value="Class" />
+        <option value="FxmlFile" />
       </list>
     </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <replaceStrings>
+      <replace />
+    </replaceStrings>
+    <dirStrings>
+      <dir>C:\Users\djamel\Documents\GitHub\JavaFxMeterialDesign</dir>
+    </dirStrings>
   </component>
   <component name="FindManager">
     <FindUsagesManager>
       <setting name="OPEN_NEW_TAB" value="false" />
     </FindUsagesManager>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/sample/Controller.java" />
         <option value="$PROJECT_DIR$/src/com/houarizegai/javafxmaterialdesign/resources/css/main" />
-        <option value="$PROJECT_DIR$/src/com/houarizegai/javafxmaterialdesign/resources/views/Main.fxml" />
         <option value="$PROJECT_DIR$/src/com/houarizegai/javafxmaterialdesign/resources/css/main.css" />
         <option value="$PROJECT_DIR$/src/com/houarizegai/javafxmaterialdesign/java/launch/Launcher$.java" />
         <option value="$PROJECT_DIR$/src/com/houarizegai/javafxmaterialdesign/java/launch/Launcher.java" />
         <option value="$PROJECT_DIR$/src/com/houarizegai/javafxmaterialdesign/java/controllers/SlideShowController.java" />
         <option value="$PROJECT_DIR$/src/com/houarizegai/javafxmaterialdesign/resources/views/SlideShow.fxml" />
+        <option value="$PROJECT_DIR$/src/com/houarizegai/javafxmaterialdesign/resources/views/Main.fxml" />
+        <option value="$PROJECT_DIR$/src/com/houarizegai/javafxmaterialdesign/java/controllers/checkboxController.java" />
+        <option value="$PROJECT_DIR$/src/com/houarizegai/javafxmaterialdesign/resources/views/checkboxview.fxml" />
         <option value="$PROJECT_DIR$/src/com/houarizegai/javafxmaterialdesign/java/controllers/MainController.java" />
       </list>
     </option>
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="683" />
-    <option name="width" value="683" />
-    <option name="height" value="728" />
+    <option name="x" value="681" />
+    <option name="width" value="685" />
+    <option name="height" value="730" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectReloadState">
     <option name="STATE" value="0" />
@@ -141,52 +319,79 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="JavaFXMaterialDesign" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JavaFXMaterialDesign" type="462c0819:PsiDirectoryNode" />
+              <item name="JavaFxMeterialDesign" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JavaFxMeterialDesign" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="JavaFXMaterialDesign" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JavaFXMaterialDesign" type="462c0819:PsiDirectoryNode" />
+              <item name="JavaFxMeterialDesign" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JavaFxMeterialDesign" type="462c0819:PsiDirectoryNode" />
+              <item name="lib" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JavaFxMeterialDesign" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JavaFxMeterialDesign" type="462c0819:PsiDirectoryNode" />
+              <item name="out" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JavaFxMeterialDesign" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JavaFxMeterialDesign" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="JavaFXMaterialDesign" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JavaFXMaterialDesign" type="462c0819:PsiDirectoryNode" />
+              <item name="JavaFxMeterialDesign" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JavaFxMeterialDesign" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="javafxmaterialdesign" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="JavaFXMaterialDesign" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JavaFXMaterialDesign" type="462c0819:PsiDirectoryNode" />
+              <item name="JavaFxMeterialDesign" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JavaFxMeterialDesign" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="javafxmaterialdesign" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="JavaFXMaterialDesign" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JavaFXMaterialDesign" type="462c0819:PsiDirectoryNode" />
+              <item name="JavaFxMeterialDesign" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JavaFxMeterialDesign" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="javafxmaterialdesign" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="controllers" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="JavaFXMaterialDesign" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JavaFXMaterialDesign" type="462c0819:PsiDirectoryNode" />
+              <item name="JavaFxMeterialDesign" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JavaFxMeterialDesign" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="javafxmaterialdesign" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="launch" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JavaFxMeterialDesign" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JavaFxMeterialDesign" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="javafxmaterialdesign" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JavaFxMeterialDesign" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JavaFxMeterialDesign" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="javafxmaterialdesign" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
+      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -198,23 +403,25 @@
     <property name="MemberChooser.sorted" value="false" />
     <property name="OverrideImplement.combined" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1537294696666" />
     <property name="dynamic.classpath" value="false" />
-    <property name="last_opened_file_path" value="F:/Library/Jars/JavaFxLibs" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/lib/jfoenix-8.0.1.jar!/" />
     <property name="project.structure.last.edited" value="Libraries" />
-    <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
     <property name="recentsLimit" value="5" />
     <property name="show.migrate.to.gradle.popup" value="false" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="E:\JavaFxProject\JavaFXMaterialDesign\src\com\houarizegai\javafxmaterialdesign\resources\img\slideshow" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\djamel\Documents\GitHub\JavaFxMeterialDesign\lib" />
       <recent name="E:\JavaFxProject\JavaFXMaterialDesign\src\com\houarizegai\javafxmaterialdesign\resources" />
       <recent name="E:\JavaFxProject\JavaFXMaterialDesign\src\com\houarizegai\javafxmaterialdesign\java\controllers" />
       <recent name="E:\JavaFxProject\JavaFXMaterialDesign\src\com\houarizegai\javafxmaterialdesign\resources\css" />
       <recent name="E:\JavaFxProject\JavaFXMaterialDesign\src\com\houarizegai\javafxmaterialdesign\resources\views" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\JavaFxProject\JavaFXMaterialDesign\src\com\houarizegai\javafxmaterialdesign\resources\img\slideshow" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -341,16 +548,19 @@
     <option name="totallyTimeSpent" value="1302000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info id="Designer" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.6703755" visible="true" weight="0.25416037" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.6703755" visible="true" weight="0.26107383" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Favorites" order="2" />
-      <window_info anchor="bottom" id="Terminal" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Image Layers" order="6" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3289689" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32765958" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -361,10 +571,8 @@
       <window_info anchor="bottom" id="Changes" order="10" />
       <window_info anchor="bottom" id="Profiler" order="11" />
       <window_info anchor="bottom" id="Event Log" order="12" />
-      <window_info anchor="bottom" id="Messages" order="13" weight="0.3289689" />
-      <window_info anchor="right" id="Flutter Inspector" />
-      <window_info anchor="right" id="Flutter Outline" />
-      <window_info anchor="right" id="Palette&#9;" />
+      <window_info anchor="bottom" id="Messages" order="13" weight="0.32765958" />
+      <window_info anchor="bottom" id="Terminal" order="14" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -372,6 +580,11 @@
       <window_info anchor="right" id="Database" order="4" />
       <window_info anchor="right" id="Palette" order="5" />
       <window_info anchor="right" id="Maven Projects" order="6" />
+      <window_info anchor="right" id="Flutter Inspector" order="7" />
+      <window_info anchor="right" id="Flutter Outline" order="8" />
+      <window_info anchor="right" id="Palette&#9;" order="9" />
+      <window_info anchor="right" id="Capture Analysis" order="10" />
+      <window_info anchor="right" id="Theme Preview" order="11" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -386,84 +599,14 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/sample/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="8" selection-start-line="8" selection-end-line="8" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sample/sample.fxml">
-      <provider editor-type-id="JavaFX-Scene-Builder" />
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="7" column="11" selection-start-line="7" selection-start-column="11" selection-end-line="7" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sample/Controller.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="36">
-          <caret line="2" selection-start-line="2" selection-end-line="2" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/package-info.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/houarizegai/javafxmaterialdesign/resources/views/Main.fxml">
-      <provider editor-type-id="JavaFX-Scene-Builder" />
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="10" column="241" selection-start-line="10" selection-start-column="241" selection-end-line="10" selection-end-column="241" />
-          <folding>
-            <element signature="n#AnchorPane#0;n#!!top" />
-            <element signature="n#children#0;n#AnchorPane#0;n#!!top" />
-            <element signature="n#GridPane#0;n#children#0;n#AnchorPane#0;n#!!top" />
-            <element signature="n#columnConstraints#0;n#GridPane#0;n#children#0;n#AnchorPane#0;n#!!top" />
-            <element signature="n#rowConstraints#0;n#GridPane#0;n#children#0;n#AnchorPane#0;n#!!top" />
-            <element signature="n#children#0;n#GridPane#0;n#children#0;n#AnchorPane#0;n#!!top" />
-            <element signature="n#VBox#1;n#children#0;n#GridPane#0;n#children#0;n#AnchorPane#0;n#!!top" />
-            <element signature="n#children#0;n#VBox#1;n#children#0;n#GridPane#0;n#children#0;n#AnchorPane#0;n#!!top" />
-            <element signature="n#VBox#0;n#children#0;n#VBox#1;n#children#0;n#GridPane#0;n#children#0;n#AnchorPane#0;n#!!top" />
-            <element signature="n#children#0;n#VBox#0;n#children#0;n#VBox#1;n#children#0;n#GridPane#0;n#children#0;n#AnchorPane#0;n#!!top" />
-            <element signature="n#VBox#2;n#children#0;n#GridPane#0;n#children#0;n#AnchorPane#0;n#!!top" />
-            <element signature="n#children#0;n#VBox#2;n#children#0;n#GridPane#0;n#children#0;n#AnchorPane#0;n#!!top" />
-            <element signature="n#VBox#0;n#children#0;n#VBox#2;n#children#0;n#GridPane#0;n#children#0;n#AnchorPane#0;n#!!top" />
-            <element signature="n#children#0;n#VBox#0;n#children#0;n#VBox#2;n#children#0;n#GridPane#0;n#children#0;n#AnchorPane#0;n#!!top" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/Main.java" />
+    <entry file="file://$PROJECT_DIR$/src/sample/sample.fxml" />
+    <entry file="file://$PROJECT_DIR$/src/sample/Controller.java" />
+    <entry file="file://$PROJECT_DIR$/src/package-info.java" />
     <entry file="file://$PROJECT_DIR$/src/com/houarizegai/javafxmaterialdesign/resources/css/slideshow.css">
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret column="1" selection-start-column="1" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/houarizegai/javafxmaterialdesign/java/controllers/SlideShowController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="29" column="21" selection-start-line="29" selection-start-column="21" selection-end-line="29" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/houarizegai/javafxmaterialdesign/java/controllers/MainController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="18">
-          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1046#1047#0" expanded="true" />
-            <element signature="e#1084#1085#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -474,10 +617,50 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/houarizegai/javafxmaterialdesign/resources/views/SlideShow.fxml">
-      <provider editor-type-id="JavaFX-Scene-Builder" />
+    <entry file="file://$PROJECT_DIR$/src/com/houarizegai/javafxmaterialdesign/java/controllers/MainController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
+        <state relative-caret-position="96">
+          <caret line="19" column="36" lean-forward="true" selection-start-line="19" selection-start-column="36" selection-end-line="19" selection-end-column="36" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/houarizegai/javafxmaterialdesign/resources/views/Main.fxml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="765">
+          <caret line="45" column="40" selection-start-line="45" selection-start-column="40" selection-end-line="45" selection-end-column="40" />
+        </state>
+      </provider>
+      <provider editor-type-id="JavaFX-Scene-Builder" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/houarizegai/javafxmaterialdesign/java/controllers/SlideShowController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="15" column="40" selection-start-line="15" selection-start-column="40" selection-end-line="15" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/houarizegai/javafxmaterialdesign/resources/views/checkboxview.fxml">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="49" selection-start-line="11" selection-start-column="49" selection-end-line="11" selection-end-column="49" />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="JavaFX-Scene-Builder" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/houarizegai/javafxmaterialdesign/resources/views/chechBoxview.fxml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="29" selection-start-line="16" selection-start-column="29" selection-end-line="16" selection-end-column="29" />
+        </state>
+      </provider>
+      <provider editor-type-id="JavaFX-Scene-Builder" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/houarizegai/javafxmaterialdesign/resources/views/SlideShow.fxml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
           <caret line="12" column="10" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="10" />
           <folding>
             <element signature="n#StackPane#0;n#!!top" />
@@ -513,11 +696,25 @@
           </folding>
         </state>
       </provider>
+      <provider editor-type-id="JavaFX-Scene-Builder" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/houarizegai/javafxmaterialdesign/java/controllers/checkboxController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/houarizegai/javafxmaterialdesign/java/launch/Launcher.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="6" column="8" lean-forward="true" selection-start-line="6" selection-start-column="8" selection-end-line="6" selection-end-column="8" />
+        <state relative-caret-position="170">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -532,7 +729,6 @@
             <option name="proportions">
               <list>
                 <option value="0.2" />
-                <option value="0.5" />
               </list>
             </option>
           </splitter-proportions>
@@ -588,7 +784,7 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
-          <last-edited>JavaFxLibs</last-edited>
+          <last-edited>jfoenix-8.0.1</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
