@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<VBox alignment="TOP_CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" spacing="30.0" xmlns="http://javafx.com/javafx/8.0.141" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <HBox alignment="CENTER" prefHeight="169.0" prefWidth="323.0" style="-fx-background-color: #F15C5C;">
+         <children>
+            <Label text="✘" textFill="WHITE">
+               <font>
+                  <Font size="63.0" />
+               </font>
+            </Label>
+         </children>
+      </HBox>
+      <Label text="Warning !">
+         <font>
+            <Font name="System Bold" size="24.0" />
+         </font>
+      </Label>
+      <Label prefHeight="47.0" prefWidth="241.0" text="Your invitation Could not send out ! " />
+      <Separator prefWidth="200.0" />
+      <JFXButton cache="true" prefHeight="39.0" prefWidth="161.0" ripplerFill="#f5f2f2" style="-fx-background-color: #F15C5C;" styleClass="btn" stylesheets="@../css/invalideAlter.css" text="Go Back" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </JFXButton>
+   </children>
+   <padding>
+      <Insets bottom="20.0" />
+   </padding>
+</VBox>

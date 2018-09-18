@@ -89,7 +89,7 @@
       <Separator prefHeight="18.0" prefWidth="438.0" />
       <HBox alignment="CENTER_RIGHT" prefHeight="100.0" prefWidth="200.0" spacing="5.0">
          <children>
-            <JFXButton text="chouse">
+            <JFXButton text="Choose">
                <font>
                   <Font size="18.0" />
                </font>
