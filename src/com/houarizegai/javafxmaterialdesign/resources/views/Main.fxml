@@ -33,7 +33,7 @@
                   </VBox>
                </children>
             </VBox>
-            <VBox styleClass="box">
+            <VBox onMouseClicked="#onRecyclerView" styleClass="box">
                <children>
                   <Pane prefHeight="38.0" prefWidth="220.0" style="-fx-background-color: #2196f3;" styleClass="box-top-pane" />
                   <VBox alignment="CENTER" prefHeight="90.0">

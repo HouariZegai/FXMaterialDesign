@@ -15,36 +15,46 @@ import java.util.ResourceBundle;
 
 public class MainController implements Initializable {
     @FXML // Root Element
-    StackPane root;
+            StackPane root;
     // Nodes
     private StackPane slideShowPane;
     private VBox chackBoxpane;
 
     // Using to show nodes
     public static JFXDialog slideShowDialog;
-    public static JFXDialog  chackBoxDialog;
+    public static JFXDialog chackBoxDialog;
+    private VBox recyclerView;
+
+    // Using to show nodes
 
     @Override
     public void initialize(URL location, ResourceBundle resources) {
         try {
             slideShowPane = FXMLLoader.load(getClass().getResource("/com/houarizegai/javafxmaterialdesign/resources/views/SlideShow.fxml"));
             chackBoxpane = FXMLLoader.load(getClass().getResource("/com/houarizegai/javafxmaterialdesign/resources/views/chechBoxview.fxml"));
+            slideShowDialog = new JFXDialog(root, slideShowPane, JFXDialog.DialogTransition.CENTER);
+            chackBoxDialog = new JFXDialog(root, chackBoxpane, JFXDialog.DialogTransition.CENTER);
+            recyclerView = FXMLLoader.load(getClass().getResource("/com/houarizegai/javafxmaterialdesign/resources/views/RecyclerView.fxml"));
 
 
-        } catch(IOException ioe) {
+        } catch (IOException ioe) {
             ioe.printStackTrace();
         }
-        slideShowDialog = new JFXDialog(root, slideShowPane, JFXDialog.DialogTransition.CENTER);
-        chackBoxDialog = new JFXDialog(root, chackBoxpane, JFXDialog.DialogTransition.CENTER);
+        }
 
-    }
+
 
     @FXML
     private void onSlideShow() {
-        slideShowDialog.show();
+        new JFXDialog(root, slideShowPane, JFXDialog.DialogTransition.CENTER).show();
     }
 
-    public void onrecyclerView(MouseEvent mouseEvent) {
+     public void onrecyclerView(MouseEvent mouseEvent) {
         chackBoxDialog.show();
     }
-}
+     @FXML
+    private void onRecyclerView() {
+        new JFXDialog(root, recyclerView, JFXDialog.DialogTransition.CENTER).show();
+    }
+
+ }
