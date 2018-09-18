@@ -1,0 +1,12 @@
+.root {
+    -fx-background-radius: 20px
+}
+
+.title {
+    -fx-font-weight: bold;
+    -fx-text-fill: #444
+}
+
+.txt {
+    -fx-text-fill: #444
+}

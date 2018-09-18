@@ -6,6 +6,7 @@ import javafx.fxml.FXMLLoader;
 import javafx.fxml.Initializable;
 import javafx.scene.layout.Region;
 import javafx.scene.layout.StackPane;
+import javafx.scene.layout.VBox;
 
 import java.io.IOException;
 import java.net.URL;
@@ -16,23 +17,29 @@ public class MainController implements Initializable {
     StackPane root;
     // Nodes
     private StackPane slideShowPane;
+    private VBox recyclerView;
 
     // Using to show nodes
-    public static JFXDialog slideShowDialog;
 
     @Override
     public void initialize(URL location, ResourceBundle resources) {
         try {
             slideShowPane = FXMLLoader.load(getClass().getResource("/com/houarizegai/javafxmaterialdesign/resources/views/SlideShow.fxml"));
+            recyclerView = FXMLLoader.load(getClass().getResource("/com/houarizegai/javafxmaterialdesign/resources/views/RecyclerView.fxml"));
         } catch(IOException ioe) {
             ioe.printStackTrace();
         }
-        slideShowDialog = new JFXDialog(root, slideShowPane, JFXDialog.DialogTransition.CENTER);
 
     }
 
     @FXML
     private void onSlideShow() {
-        slideShowDialog.show();
+        new JFXDialog(root, slideShowPane, JFXDialog.DialogTransition.CENTER).show();
     }
+
+    @FXML
+    private void onRecyclerView() {
+        new JFXDialog(root, recyclerView, JFXDialog.DialogTransition.CENTER).show();
+    }
+
 }

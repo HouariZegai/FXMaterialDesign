@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="" />
+    <list default="true" id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/houarizegai/javafxmaterialdesign/java/controllers/MainController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/houarizegai/javafxmaterialdesign/java/controllers/MainController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/houarizegai/javafxmaterialdesign/resources/views/Main.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/houarizegai/javafxmaterialdesign/resources/views/Main.fxml" afterDir="false" />
+    </list>
     <ignored path="JavaFxApplication.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="$PROJECT_DIR$/out/" />
@@ -62,32 +66,32 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="css" value="246" />
-          <entry key="fxml" value="74" />
-          <entry key="java" value="782" />
+          <entry key="css" value="425" />
+          <entry key="fxml" value="137" />
+          <entry key="java" value="890" />
           <entry key="main" value="74" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="CSS" value="320" />
-          <entry key="JAVA" value="782" />
-          <entry key="XML" value="74" />
+          <entry key="CSS" value="499" />
+          <entry key="JAVA" value="890" />
+          <entry key="XML" value="137" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="css" value="1" />
-          <entry key="fxml" value="3" />
-          <entry key="java" value="7" />
+          <entry key="css" value="2" />
+          <entry key="fxml" value="9" />
+          <entry key="java" value="11" />
           <entry key="main" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="CSS" value="3" />
-          <entry key="JAVA" value="7" />
-          <entry key="XML" value="3" />
+          <entry key="CSS" value="4" />
+          <entry key="JAVA" value="11" />
+          <entry key="XML" value="9" />
         </counts>
       </usages-collector>
     </session>
@@ -96,7 +100,33 @@
     <favorites_list name="JavaFxApplication" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/houarizegai/javafxmaterialdesign/resources/css/recyclerview.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="18">
+              <caret line="1" column="24" selection-start-line="1" selection-start-column="24" selection-end-line="1" selection-end-column="24" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/houarizegai/javafxmaterialdesign/java/controllers/MainController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="38" lean-forward="true" selection-start-line="38" selection-end-line="38" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1029#1030#0" expanded="true" />
+                <element signature="e#1121#1122#0" expanded="true" />
+                <element signature="e#1044#1045#0" expanded="true" />
+                <element signature="e#1136#1137#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -112,6 +142,9 @@
       <setting name="OPEN_NEW_TAB" value="false" />
     </FindUsagesManager>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
@@ -123,16 +156,19 @@
         <option value="$PROJECT_DIR$/src/com/houarizegai/javafxmaterialdesign/java/launch/Launcher.java" />
         <option value="$PROJECT_DIR$/src/com/houarizegai/javafxmaterialdesign/java/controllers/SlideShowController.java" />
         <option value="$PROJECT_DIR$/src/com/houarizegai/javafxmaterialdesign/resources/views/SlideShow.fxml" />
+        <option value="$PROJECT_DIR$/src/com/houarizegai/javafxmaterialdesign/resources/views/RecyclerView.fxml" />
         <option value="$PROJECT_DIR$/src/com/houarizegai/javafxmaterialdesign/java/controllers/MainController.java" />
+        <option value="$PROJECT_DIR$/src/com/houarizegai/javafxmaterialdesign/resources/css/recyclerview.css" />
       </list>
     </option>
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="683" />
     <option name="width" value="683" />
     <option name="height" value="728" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectReloadState">
     <option name="STATE" value="0" />
   </component>
@@ -181,6 +217,14 @@
               <item name="javafxmaterialdesign" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="JavaFXMaterialDesign" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JavaFXMaterialDesign" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="javafxmaterialdesign" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -211,9 +255,9 @@
       <recent name="E:\JavaFxProject\JavaFXMaterialDesign\src\com\houarizegai\javafxmaterialdesign\resources\img\slideshow" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\JavaFxProject\JavaFXMaterialDesign\src\com\houarizegai\javafxmaterialdesign\resources\css" />
       <recent name="E:\JavaFxProject\JavaFXMaterialDesign\src\com\houarizegai\javafxmaterialdesign\resources" />
       <recent name="E:\JavaFxProject\JavaFXMaterialDesign\src\com\houarizegai\javafxmaterialdesign\java\controllers" />
-      <recent name="E:\JavaFxProject\JavaFXMaterialDesign\src\com\houarizegai\javafxmaterialdesign\resources\css" />
       <recent name="E:\JavaFxProject\JavaFXMaterialDesign\src\com\houarizegai\javafxmaterialdesign\resources\views" />
     </key>
   </component>
@@ -342,21 +386,22 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Designer" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.6703755" visible="true" weight="0.25416037" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.6703755" visible="true" weight="0.25416037" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Favorites" order="2" />
       <window_info anchor="bottom" id="Terminal" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3289689" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3289689" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Application Servers" order="7" />
-      <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Problems" order="9" />
       <window_info anchor="bottom" id="Changes" order="10" />
       <window_info anchor="bottom" id="Profiler" order="11" />
@@ -417,30 +462,6 @@
     <entry file="file://$PROJECT_DIR$/src/package-info.java">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/houarizegai/javafxmaterialdesign/resources/views/Main.fxml">
-      <provider editor-type-id="JavaFX-Scene-Builder" />
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="10" column="241" selection-start-line="10" selection-start-column="241" selection-end-line="10" selection-end-column="241" />
-          <folding>
-            <element signature="n#AnchorPane#0;n#!!top" />
-            <element signature="n#children#0;n#AnchorPane#0;n#!!top" />
-            <element signature="n#GridPane#0;n#children#0;n#AnchorPane#0;n#!!top" />
-            <element signature="n#columnConstraints#0;n#GridPane#0;n#children#0;n#AnchorPane#0;n#!!top" />
-            <element signature="n#rowConstraints#0;n#GridPane#0;n#children#0;n#AnchorPane#0;n#!!top" />
-            <element signature="n#children#0;n#GridPane#0;n#children#0;n#AnchorPane#0;n#!!top" />
-            <element signature="n#VBox#1;n#children#0;n#GridPane#0;n#children#0;n#AnchorPane#0;n#!!top" />
-            <element signature="n#children#0;n#VBox#1;n#children#0;n#GridPane#0;n#children#0;n#AnchorPane#0;n#!!top" />
-            <element signature="n#VBox#0;n#children#0;n#VBox#1;n#children#0;n#GridPane#0;n#children#0;n#AnchorPane#0;n#!!top" />
-            <element signature="n#children#0;n#VBox#0;n#children#0;n#VBox#1;n#children#0;n#GridPane#0;n#children#0;n#AnchorPane#0;n#!!top" />
-            <element signature="n#VBox#2;n#children#0;n#GridPane#0;n#children#0;n#AnchorPane#0;n#!!top" />
-            <element signature="n#children#0;n#VBox#2;n#children#0;n#GridPane#0;n#children#0;n#AnchorPane#0;n#!!top" />
-            <element signature="n#VBox#0;n#children#0;n#VBox#2;n#children#0;n#GridPane#0;n#children#0;n#AnchorPane#0;n#!!top" />
-            <element signature="n#children#0;n#VBox#0;n#children#0;n#VBox#2;n#children#0;n#GridPane#0;n#children#0;n#AnchorPane#0;n#!!top" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/houarizegai/javafxmaterialdesign/resources/css/slideshow.css">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -448,29 +469,31 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/houarizegai/javafxmaterialdesign/java/controllers/SlideShowController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="29" column="21" selection-start-line="29" selection-start-column="21" selection-end-line="29" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/houarizegai/javafxmaterialdesign/java/controllers/MainController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="18">
-          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1046#1047#0" expanded="true" />
-            <element signature="e#1084#1085#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/houarizegai/javafxmaterialdesign/resources/css/main.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="108">
           <caret line="6" column="12" selection-start-line="6" selection-start-column="12" selection-end-line="6" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/houarizegai/javafxmaterialdesign/java/launch/Launcher.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="6" column="8" lean-forward="true" selection-start-line="6" selection-start-column="8" selection-end-line="6" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/houarizegai/javafxmaterialdesign/java/controllers/RecyclerViewController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="2" column="35" selection-start-line="2" selection-start-column="35" selection-end-line="2" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/houarizegai/javafxmaterialdesign/java/controllers/SlideShowController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="455">
+          <caret line="119" lean-forward="true" selection-start-line="119" selection-end-line="119" />
         </state>
       </provider>
     </entry>
@@ -514,10 +537,40 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/houarizegai/javafxmaterialdesign/java/launch/Launcher.java">
+    <entry file="file://$PROJECT_DIR$/src/com/houarizegai/javafxmaterialdesign/resources/views/RecyclerView.fxml">
+      <provider editor-type-id="JavaFX-Scene-Builder" />
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="6" column="8" lean-forward="true" selection-start-line="6" selection-start-column="8" selection-end-line="6" selection-end-column="8" />
+        <state relative-caret-position="234">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/houarizegai/javafxmaterialdesign/resources/views/Main.fxml">
+      <provider editor-type-id="JavaFX-Scene-Builder" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret lean-forward="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/houarizegai/javafxmaterialdesign/java/controllers/MainController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="38" lean-forward="true" selection-start-line="38" selection-end-line="38" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1029#1030#0" expanded="true" />
+            <element signature="e#1121#1122#0" expanded="true" />
+            <element signature="e#1044#1045#0" expanded="true" />
+            <element signature="e#1136#1137#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/houarizegai/javafxmaterialdesign/resources/css/recyclerview.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="18">
+          <caret line="1" column="24" selection-start-line="1" selection-start-column="24" selection-end-line="1" selection-end-column="24" />
         </state>
       </provider>
     </entry>
