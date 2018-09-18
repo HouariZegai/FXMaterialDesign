@@ -1,0 +1,18 @@
+.box {
+    -fx-background-radius: 20px;
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.4), 10, 0, 0, 0);
+    -fx-background-color: #FFF
+}
+
+.box:hover {
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.8), 20, 0, 0, 0);
+    -fx-cursor: hand
+}
+
+.box-top-pane {
+    -fx-background-radius: 20px 20px 0 0
+}
+
+.box-title {
+    -fx-font-size: 17px;
+}
