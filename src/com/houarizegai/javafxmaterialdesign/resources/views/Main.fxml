@@ -9,7 +9,7 @@
 <?import javafx.scene.layout.StackPane?>
 <?import javafx.scene.layout.VBox?>
 
-<StackPane fx:id="root" stylesheets="@../css/main.css" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.houarizegai.javafxmaterialdesign.java.controllers.MainController">
+<StackPane fx:id="root" stylesheets="@../css/main.css" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.houarizegai.javafxmaterialdesign.java.controllers.MainController">
    <children>
       <GridPane hgap="20.0" vgap="30.0">
          <columnConstraints>
@@ -43,7 +43,7 @@
                   </VBox>
                </children>
             </VBox>
-            <VBox styleClass="box" GridPane.rowIndex="1">
+            <VBox onMouseClicked="#onrecyclerView" styleClass="box" GridPane.rowIndex="1">
                <children>
                   <Pane prefHeight="38.0" prefWidth="220.0" style="-fx-background-color: #1B5E20;" styleClass="box-top-pane" />
                   <VBox alignment="CENTER" prefHeight="90.0">
