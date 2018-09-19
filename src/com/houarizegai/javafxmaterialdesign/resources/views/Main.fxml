@@ -64,12 +64,12 @@
                               </VBox>
                            </children>
                         </VBox>
-                        <VBox styleClass="box" GridPane.columnIndex="2" GridPane.rowIndex="1">
+                        <VBox onMouseClicked="#onAnimateButtons" styleClass="box" GridPane.columnIndex="2" GridPane.rowIndex="1">
                            <children>
                               <Pane prefHeight="38.0" prefWidth="220.0" style="-fx-background-color: #AEEA00;" styleClass="box-top-pane" />
                               <VBox alignment="CENTER" prefHeight="90.0">
                                  <children>
-                                    <Label styleClass="box-title" text="Empty" />
+                                    <Label styleClass="box-title" text="Animate Buttons" />
                                  </children>
                               </VBox>
                            </children>

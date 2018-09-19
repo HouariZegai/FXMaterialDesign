@@ -24,7 +24,7 @@ public class MainController implements Initializable {
     // Nodes
     private StackPane slideShowPane;
     private VBox recyclerViewPane, selectedViewPane, validAlertPane, invalidAlertPane, menuDrawerPane;
-    private AnchorPane stepperTouchPane;
+    private AnchorPane stepperTouchPane, animateButtonsPane;
 
     // Drawer (Left Menu)
     @FXML
@@ -41,6 +41,7 @@ public class MainController implements Initializable {
             // Init Menu
             menuDrawerPane = FXMLLoader.load(getClass().getResource("/com/houarizegai/javafxmaterialdesign/resources/views/MenuDrawer.fxml"));
             stepperTouchPane = FXMLLoader.load(getClass().getResource("/com/houarizegai/javafxmaterialdesign/resources/views/StepperTouch.fxml"));
+            animateButtonsPane = FXMLLoader.load(getClass().getResource("/com/houarizegai/javafxmaterialdesign/resources/views/AnimateButtons.fxml"));
         } catch (IOException ioe) {
             ioe.printStackTrace();
         }
@@ -89,5 +90,10 @@ public class MainController implements Initializable {
     @FXML
     private void onStepperTouch() {
         new JFXDialog(root, stepperTouchPane, JFXDialog.DialogTransition.CENTER).show();
+    }
+
+    @FXML
+    private void onAnimateButtons() {
+        new JFXDialog(root, animateButtonsPane, JFXDialog.DialogTransition.CENTER).show();
     }
 }

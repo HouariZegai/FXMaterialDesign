@@ -2,10 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/houarizegai/javafxmaterialdesign/java/controllers/StepperTouchController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/houarizegai/javafxmaterialdesign/resources/css/stepper-touch.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/houarizegai/javafxmaterialdesign/resources/views/StepperTouch.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/AnimateFX_1_2_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/AnimateFX_1_2_0__2_.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/houarizegai/javafxmaterialdesign/java/controllers/AnimateButtonsControllers.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/houarizegai/javafxmaterialdesign/resources/views/AnimateButtons.fxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaFXMaterialDesign.iml" beforeDir="false" afterPath="$PROJECT_DIR$/JavaFXMaterialDesign.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/houarizegai/javafxmaterialdesign/java/controllers/MainController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/houarizegai/javafxmaterialdesign/java/controllers/MainController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/houarizegai/javafxmaterialdesign/resources/views/Main.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/houarizegai/javafxmaterialdesign/resources/views/Main.fxml" afterDir="false" />
     </list>
@@ -73,31 +75,31 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="css" value="1554" />
-          <entry key="fxml" value="207" />
-          <entry key="java" value="3084" />
+          <entry key="fxml" value="214" />
+          <entry key="java" value="3275" />
           <entry key="main" value="74" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="CSS" value="1628" />
-          <entry key="JAVA" value="3084" />
-          <entry key="XML" value="207" />
+          <entry key="JAVA" value="3275" />
+          <entry key="XML" value="214" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="css" value="14" />
-          <entry key="fxml" value="24" />
-          <entry key="java" value="25" />
+          <entry key="fxml" value="25" />
+          <entry key="java" value="30" />
           <entry key="main" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CSS" value="16" />
-          <entry key="JAVA" value="25" />
-          <entry key="XML" value="24" />
+          <entry key="JAVA" value="30" />
+          <entry key="XML" value="25" />
         </counts>
       </usages-collector>
     </session>
@@ -140,10 +142,16 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/houarizegai/javafxmaterialdesign/resources/css/stepper-touch.css">
+        <entry file="file://$PROJECT_DIR$/src/com/houarizegai/javafxmaterialdesign/java/controllers/MainController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="20" lean-forward="true" selection-start-column="20" selection-end-column="20" />
+            <state relative-caret-position="504">
+              <caret line="43" column="12" selection-start-line="43" selection-start-column="12" selection-end-line="43" selection-end-column="12" />
+              <folding>
+                <element signature="e#2176#2226#0" />
+                <element signature="method#onCustomAlert#0;class#MainController#0" />
+                <element signature="method#onMenuDrawer#0;class#MainController#0" />
+                <element signature="method#onAnimateButtons#0;class#MainController#0" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -161,10 +169,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/houarizegai/javafxmaterialdesign/java/controllers/StepperTouchController.java">
+        <entry file="file://$PROJECT_DIR$/src/com/houarizegai/javafxmaterialdesign/java/controllers/AnimateButtonsControllers.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="18">
-              <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+            <state relative-caret-position="288">
+              <caret line="16" column="26" selection-start-line="16" selection-start-column="26" selection-end-line="16" selection-end-column="26" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -221,9 +229,12 @@
         <option value="$PROJECT_DIR$/src/com/houarizegai/javafxmaterialdesign/resources/css/alert.css" />
         <option value="$PROJECT_DIR$/src/com/houarizegai/javafxmaterialdesign/resources/css/main.css" />
         <option value="$PROJECT_DIR$/src/com/houarizegai/javafxmaterialdesign/resources/views/StepperTouch.fxml" />
-        <option value="$PROJECT_DIR$/src/com/houarizegai/javafxmaterialdesign/java/controllers/MainController.java" />
         <option value="$PROJECT_DIR$/src/com/houarizegai/javafxmaterialdesign/resources/css/stepper-touch.css" />
         <option value="$PROJECT_DIR$/src/com/houarizegai/javafxmaterialdesign/java/controllers/StepperTouchController.java" />
+        <option value="$PROJECT_DIR$/src/com/houarizegai/javafxmaterialdesign/java/controllers/AnimateButtonsControlleres.java" />
+        <option value="$PROJECT_DIR$/src/com/houarizegai/javafxmaterialdesign/resources/views/AnimateButtons.fxml" />
+        <option value="$PROJECT_DIR$/src/com/houarizegai/javafxmaterialdesign/java/controllers/AnimateButtonsControllers.java" />
+        <option value="$PROJECT_DIR$/src/com/houarizegai/javafxmaterialdesign/java/controllers/MainController.java" />
         <option value="$PROJECT_DIR$/src/com/houarizegai/javafxmaterialdesign/java/launch/Launcher.java" />
       </list>
     </option>
@@ -283,6 +294,14 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="javafxmaterialdesign" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="controllers" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JavaFXMaterialDesign" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JavaFXMaterialDesign" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="javafxmaterialdesign" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="launch" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -298,7 +317,11 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="javafxmaterialdesign" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="css" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JavaFXMaterialDesign" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
           </expand>
           <select />
@@ -321,13 +344,13 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1537308343153" />
     <property name="dynamic.classpath" value="false" />
-    <property name="last_opened_file_path" value="F:/Library/Jars/JavaFxLibs" />
+    <property name="last_opened_file_path" value="F:/Library/Jars/JavaFxLibs/AnimateFX-1.2.0.jar!/" />
     <property name="node.js.detected.package.prettier" value="true" />
     <property name="node.js.path.for.package.prettier" value="project" />
     <property name="node.js.selected.package.prettier" value="" />
     <property name="project.structure.last.edited" value="Libraries" />
-    <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
     <property name="recentsLimit" value="5" />
     <property name="show.migrate.to.gradle.popup" value="false" />
   </component>
@@ -499,7 +522,7 @@
       <window_info id="Designer" order="6" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.2569558" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.2569558" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39934534" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -722,18 +745,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/houarizegai/javafxmaterialdesign/java/controllers/MainController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="18">
-          <caret line="26" column="36" lean-forward="true" selection-start-line="26" selection-start-column="36" selection-end-line="26" selection-end-column="36" />
-          <folding>
-            <element signature="method#initialize#0;class#MainController#0" />
-            <element signature="method#onCustomAlert#0;class#MainController#0" />
-            <element signature="method#onMenuDrawer#0;class#MainController#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/houarizegai/javafxmaterialdesign/resources/css/stepper-touch.css">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -741,12 +752,54 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_181/javafx-src.zip!/javafx/event/EventHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="44" column="9" selection-start-line="44" selection-start-column="9" selection-end-line="44" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/houarizegai/javafxmaterialdesign/java/controllers/StepperTouchController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="18">
-          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+        <state relative-caret-position="190">
+          <caret line="25" column="7" lean-forward="true" selection-start-line="25" selection-start-column="7" selection-end-line="25" selection-end-column="7" />
+          <folding>
+            <element signature="method#initialize#0;class#StepperTouchController#0" />
+            <element signature="method#onAdd#0;class#StepperTouchController#0" />
+            <element signature="e#832#1093#0" />
+            <element signature="method#onSub#0;class#StepperTouchController#0" />
+            <element signature="e#1382#1639#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/houarizegai/javafxmaterialdesign/resources/views/AnimateButtons.fxml">
+      <provider editor-type-id="JavaFX-Scene-Builder" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/houarizegai/javafxmaterialdesign/java/controllers/AnimateButtonsControllers.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="16" column="26" selection-start-line="16" selection-start-column="26" selection-end-line="16" selection-end-column="26" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/houarizegai/javafxmaterialdesign/java/controllers/MainController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="504">
+          <caret line="43" column="12" selection-start-line="43" selection-start-column="12" selection-end-line="43" selection-end-column="12" />
+          <folding>
+            <element signature="e#2176#2226#0" />
+            <element signature="method#onCustomAlert#0;class#MainController#0" />
+            <element signature="method#onMenuDrawer#0;class#MainController#0" />
+            <element signature="method#onAnimateButtons#0;class#MainController#0" />
           </folding>
         </state>
       </provider>
@@ -772,7 +825,6 @@
             <option name="proportions">
               <list>
                 <option value="0.2" />
-                <option value="0.5" />
               </list>
             </option>
           </splitter-proportions>
