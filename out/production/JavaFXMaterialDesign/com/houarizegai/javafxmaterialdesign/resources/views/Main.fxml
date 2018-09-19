@@ -9,7 +9,7 @@
 <?import javafx.scene.layout.StackPane?>
 <?import javafx.scene.layout.VBox?>
 
-<StackPane fx:id="root" stylesheets="@../css/main.css" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.houarizegai.javafxmaterialdesign.java.controllers.MainController">
+<StackPane fx:id="root" stylesheets="@../css/main.css" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.houarizegai.javafxmaterialdesign.java.controllers.MainController">
    <children>
       <GridPane hgap="20.0" vgap="30.0">
          <columnConstraints>
@@ -25,10 +25,10 @@
          <children>
             <VBox onMouseClicked="#onSlideShow" prefWidth="220.0" styleClass="box" GridPane.columnIndex="1">
                <children>
-                  <Pane prefHeight="38.0" prefWidth="220.0" style="-fx-background-color: #B00020;" styleClass="box-top-pane" />
+                  <Pane prefHeight="38.0" prefWidth="220.0" style="-fx-background-color: #3E27AA;" styleClass="box-top-pane" />
                   <VBox alignment="CENTER" prefHeight="90.0">
                      <children>
-                        <Label styleClass="box-title" text="SlideShow" />
+                        <Label styleClass="box-title" text="Slide Show" />
                      </children>
                   </VBox>
                </children>
@@ -38,17 +38,17 @@
                   <Pane prefHeight="38.0" prefWidth="220.0" style="-fx-background-color: #2196f3;" styleClass="box-top-pane" />
                   <VBox alignment="CENTER" prefHeight="90.0">
                      <children>
-                        <Label styleClass="box-title" text="RecyclerView" />
+                        <Label styleClass="box-title" text="Recycler View" />
                      </children>
                   </VBox>
                </children>
             </VBox>
-            <VBox onMouseClicked="#onrecyclerView" styleClass="box" GridPane.rowIndex="1">
+            <VBox onMouseClicked="#onValidAlert" styleClass="box" GridPane.rowIndex="1">
                <children>
                   <Pane prefHeight="38.0" prefWidth="220.0" style="-fx-background-color: #1B5E20;" styleClass="box-top-pane" />
                   <VBox alignment="CENTER" prefHeight="90.0">
                      <children>
-                        <Label styleClass="box-title" text="RecyclerView" />
+                        <Label onMouseClicked="#onValidAlert" styleClass="box-title" text="Valid Alert" />
                      </children>
                   </VBox>
                </children>
@@ -58,27 +58,27 @@
                   <Pane prefHeight="38.0" prefWidth="220.0" style="-fx-background-color: #AEEA00;" styleClass="box-top-pane" />
                   <VBox alignment="CENTER" prefHeight="90.0">
                      <children>
-                        <Label styleClass="box-title" text="RecyclerView" />
+                        <Label styleClass="box-title" text="Empty" />
                      </children>
                   </VBox>
                </children>
             </VBox>
-            <VBox styleClass="box" GridPane.columnIndex="2">
+            <VBox onMouseClicked="#onSelectedView" styleClass="box" GridPane.columnIndex="2">
                <children>
                   <Pane prefHeight="38.0" prefWidth="220.0" style="-fx-background-color: #7B1FA2;" styleClass="box-top-pane" />
                   <VBox alignment="CENTER" prefHeight="90.0">
                      <children>
-                        <Label styleClass="box-title" text="RecyclerView" />
+                        <Label styleClass="box-title" text="Selected View" />
                      </children>
                   </VBox>
                </children>
             </VBox>
-            <VBox styleClass="box" GridPane.columnIndex="1" GridPane.rowIndex="1">
+            <VBox onMouseClicked="#onInvalidAlert" styleClass="box" GridPane.columnIndex="1" GridPane.rowIndex="1">
                <children>
-                  <Pane prefHeight="38.0" prefWidth="220.0" style="-fx-background-color: #3E2723;" styleClass="box-top-pane" />
+                  <Pane prefHeight="38.0" prefWidth="220.0" style="-fx-background-color: #B00020;" styleClass="box-top-pane" />
                   <VBox alignment="CENTER" prefHeight="90.0">
                      <children>
-                        <Label styleClass="box-title" text="Side Menu" />
+                        <Label styleClass="box-title" text="Invalid Alert" />
                      </children>
                   </VBox>
                </children>
@@ -88,7 +88,7 @@
                   <Pane prefHeight="38.0" prefWidth="220.0" style="-fx-background-color: #1565C0;" styleClass="box-top-pane" />
                   <VBox alignment="CENTER" prefHeight="90.0">
                      <children>
-                        <Label styleClass="box-title" text="RecyclerView" />
+                        <Label styleClass="box-title" text="Empty" />
                      </children>
                   </VBox>
                </children>
@@ -98,7 +98,7 @@
                   <Pane prefHeight="38.0" prefWidth="220.0" style="-fx-background-color: #E65100;" styleClass="box-top-pane" />
                   <VBox alignment="CENTER" prefHeight="90.0">
                      <children>
-                        <Label styleClass="box-title" text="RecyclerView" />
+                        <Label styleClass="box-title" text="Empty" />
                      </children>
                   </VBox>
                </children>
@@ -108,7 +108,7 @@
                   <Pane prefHeight="38.0" prefWidth="220.0" style="-fx-background-color: #FF0062;" styleClass="box-top-pane" />
                   <VBox alignment="CENTER" prefHeight="90.0">
                      <children>
-                        <Label styleClass="box-title" text="RecyclerView" />
+                        <Label styleClass="box-title" text="Empty" />
                      </children>
                   </VBox>
                </children>

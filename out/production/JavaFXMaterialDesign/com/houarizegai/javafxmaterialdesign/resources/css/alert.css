@@ -1,0 +1,9 @@
+.btn {
+    -fx-font-size: 18px;
+    -fx-background-radius: 18;
+}
+
+.btn:hover {
+    -fx-cursor: hand
+}
+ 

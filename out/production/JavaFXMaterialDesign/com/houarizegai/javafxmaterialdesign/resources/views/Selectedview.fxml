@@ -10,23 +10,16 @@
 <?import javafx.scene.layout.VBox?>
 <?import javafx.scene.text.Font?>
 
-<VBox spacing="10.0" xmlns="http://javafx.com/javafx/8.0.141" xmlns:fx="http://javafx.com/fxml/1">
+<VBox prefWidth="270.0" spacing="5.0" style="-fx-background-color: #FFF;" stylesheets="@../css/selectedview.css" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1">
    <children>
-      <HBox alignment="CENTER">
+      <Label alignment="CENTER" contentDisplay="CENTER" styleClass="title" text="Social Media">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+      <VBox alignment="CENTER_LEFT" spacing="5.0">
          <children>
-            <Label alignment="CENTER" contentDisplay="CENTER" prefHeight="62.0" prefWidth="245.0" text="Social Media">
-               <font>
-                  <Font size="42.0" />
-               </font>
-            </Label>
-         </children>
-      </HBox>
-      <VBox alignment="CENTER_LEFT" prefHeight="270.0" prefWidth="245.0" spacing="5.0">
-         <children>
-            <JFXCheckBox prefHeight="54.0" prefWidth="248.0" text="Facebook ">
-               <font>
-                  <Font size="22.0" />
-               </font>
+            <JFXCheckBox prefHeight="28.0" prefWidth="248.0" styleClass="check-social" text="Facebook ">
                <opaqueInsets>
                   <Insets />
                </opaqueInsets>
@@ -34,10 +27,7 @@
                   <Cursor fx:constant="DISAPPEAR" />
                </cursor>
             </JFXCheckBox>
-            <JFXCheckBox prefHeight="54.0" prefWidth="248.0" text="Twitter ">
-               <font>
-                  <Font size="22.0" />
-               </font>
+            <JFXCheckBox prefHeight="28.0" prefWidth="248.0" styleClass="check-social" text="Twitter">
                <opaqueInsets>
                   <Insets />
                </opaqueInsets>
@@ -45,10 +35,7 @@
                   <Cursor fx:constant="DISAPPEAR" />
                </cursor>
             </JFXCheckBox>
-            <JFXCheckBox prefHeight="54.0" prefWidth="248.0" text="snapchat ">
-               <font>
-                  <Font size="22.0" />
-               </font>
+            <JFXCheckBox prefHeight="28.0" prefWidth="248.0" styleClass="check-social" text="Instagram">
                <opaqueInsets>
                   <Insets />
                </opaqueInsets>
@@ -56,10 +43,7 @@
                   <Cursor fx:constant="DISAPPEAR" />
                </cursor>
             </JFXCheckBox>
-            <JFXCheckBox prefHeight="54.0" prefWidth="248.0" text="Instagram ">
-               <font>
-                  <Font size="22.0" />
-               </font>
+            <JFXCheckBox prefHeight="28.0" prefWidth="248.0" styleClass="check-social" text="LinkedIn">
                <opaqueInsets>
                   <Insets />
                </opaqueInsets>
@@ -67,10 +51,7 @@
                   <Cursor fx:constant="DISAPPEAR" />
                </cursor>
             </JFXCheckBox>
-            <JFXCheckBox prefHeight="54.0" prefWidth="248.0" text="Viber">
-               <font>
-                  <Font size="22.0" />
-               </font>
+            <JFXCheckBox prefHeight="28.0" prefWidth="248.0" styleClass="check-social" text="GitHub">
                <opaqueInsets>
                   <Insets />
                </opaqueInsets>
@@ -82,19 +63,22 @@
          <opaqueInsets>
             <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
          </opaqueInsets>
-         <padding>
-            <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
-         </padding>
+         <VBox.margin>
+            <Insets />
+         </VBox.margin>
       </VBox>
-      <Separator prefHeight="18.0" prefWidth="438.0" />
-      <HBox alignment="CENTER_RIGHT" prefHeight="100.0" prefWidth="200.0" spacing="5.0">
+      <Separator>
+         <VBox.margin>
+            <Insets bottom="10.0" top="15.0" />
+         </VBox.margin></Separator>
+      <HBox alignment="CENTER_RIGHT" spacing="5.0">
          <children>
-            <JFXButton text="Choose">
+            <JFXButton styleClass="btn" text="Cancel" textFill="#d04444">
                <font>
                   <Font size="18.0" />
                </font>
             </JFXButton>
-            <JFXButton text="Cancel">
+            <JFXButton styleClass="btn" text="Choose" textFill="#13bf58">
                <font>
                   <Font size="18.0" />
                </font>
@@ -102,4 +86,7 @@
          </children>
       </HBox>
    </children>
+   <padding>
+      <Insets bottom="10.0" left="20.0" right="20.0" top="10.0" />
+   </padding>
 </VBox>

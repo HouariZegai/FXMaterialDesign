@@ -15,46 +15,48 @@ import java.util.ResourceBundle;
 
 public class MainController implements Initializable {
     @FXML // Root Element
-            StackPane root;
+    private StackPane root;
+
     // Nodes
     private StackPane slideShowPane;
-    private VBox chackBoxpane;
-
-    // Using to show nodes
-    public static JFXDialog slideShowDialog;
-    public static JFXDialog chackBoxDialog;
-    private VBox recyclerView;
-
-    // Using to show nodes
+    private VBox recyclerViewPane, selectedViewPane, validAlertPane, invalidAlertPane;
 
     @Override
     public void initialize(URL location, ResourceBundle resources) {
         try {
             slideShowPane = FXMLLoader.load(getClass().getResource("/com/houarizegai/javafxmaterialdesign/resources/views/SlideShow.fxml"));
-            chackBoxpane = FXMLLoader.load(getClass().getResource("/com/houarizegai/javafxmaterialdesign/resources/views/chechBoxview.fxml"));
-            slideShowDialog = new JFXDialog(root, slideShowPane, JFXDialog.DialogTransition.CENTER);
-            chackBoxDialog = new JFXDialog(root, chackBoxpane, JFXDialog.DialogTransition.CENTER);
-            recyclerView = FXMLLoader.load(getClass().getResource("/com/houarizegai/javafxmaterialdesign/resources/views/RecyclerView.fxml"));
-
-
+            recyclerViewPane = FXMLLoader.load(getClass().getResource("/com/houarizegai/javafxmaterialdesign/resources/views/RecyclerView.fxml"));
+            selectedViewPane = FXMLLoader.load(getClass().getResource("/com/houarizegai/javafxmaterialdesign/resources/views/Selectedview.fxml"));
+            validAlertPane = FXMLLoader.load(getClass().getResource("/com/houarizegai/javafxmaterialdesign/resources/views/validAlert.fxml"));
+            invalidAlertPane = FXMLLoader.load(getClass().getResource("/com/houarizegai/javafxmaterialdesign/resources/views/InvalidAlert.fxml"));
         } catch (IOException ioe) {
             ioe.printStackTrace();
         }
-        }
-
-
+    }
 
     @FXML
     private void onSlideShow() {
         new JFXDialog(root, slideShowPane, JFXDialog.DialogTransition.CENTER).show();
     }
 
-     public void onrecyclerView(MouseEvent mouseEvent) {
-        chackBoxDialog.show();
-    }
-     @FXML
+    @FXML
     private void onRecyclerView() {
-        new JFXDialog(root, recyclerView, JFXDialog.DialogTransition.CENTER).show();
+        new JFXDialog(root, recyclerViewPane, JFXDialog.DialogTransition.CENTER).show();
     }
 
- }
+    @FXML
+    private void onSelectedView() {
+        new JFXDialog(root, selectedViewPane, JFXDialog.DialogTransition.CENTER).show();
+    }
+
+    @FXML
+    private void onValidAlert() {
+        new JFXDialog(root, validAlertPane, JFXDialog.DialogTransition.CENTER).show();
+    }
+
+    @FXML
+    private void onInvalidAlert() {
+        new JFXDialog(root, invalidAlertPane, JFXDialog.DialogTransition.CENTER).show();
+    }
+
+}
