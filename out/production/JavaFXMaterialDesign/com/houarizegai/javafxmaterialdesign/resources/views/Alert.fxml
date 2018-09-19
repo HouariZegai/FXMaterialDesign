@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.layout.VBox?>
+
+<StackPane fx:id="root" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.houarizegai.javafxmaterialdesign.java.controllers.AlertController">
+   <children>
+      <AnchorPane prefHeight="660.0" prefWidth="813.0" stylesheets="@../css/alert.css">
+         <children>
+            <VBox layoutX="332.0" layoutY="280.0" spacing="10.0">
+               <children>
+                  <JFXButton onAction="#onValid" prefHeight="45.0" prefWidth="150.0" style="-fx-background-color: #70D293;" styleClass="btn-choose" text="Valid" textFill="WHITE" />
+                  <JFXButton onAction="#onInvalid" prefHeight="45.0" prefWidth="150.0" style="-fx-background-color: #F15C5C;" styleClass="btn-choose" text="Invalid" textFill="WHITE" />
+               </children>
+            </VBox>
+            <JFXButton layoutX="551.0" layoutY="14.0" onAction="#onClose" prefWidth="39.0" style="-fx-background-color: #F15C5C;" styleClass="btn" text="X" textFill="WHITE" AnchorPane.rightAnchor="5.0" AnchorPane.topAnchor="5.0" />
+         </children>
+      </AnchorPane>
+   </children>
+</StackPane>

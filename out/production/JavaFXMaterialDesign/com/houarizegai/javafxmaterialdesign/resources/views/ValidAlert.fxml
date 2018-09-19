@@ -8,7 +8,7 @@
 <?import javafx.scene.layout.VBox?>
 <?import javafx.scene.text.Font?>
 
-<VBox alignment="TOP_CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" spacing="30.0" stylesheets="@../css/alert.css" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1">
+<VBox alignment="TOP_CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" spacing="30.0" stylesheets="@../css/alert.css" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.houarizegai.javafxmaterialdesign.java.controllers.ValidAlertController">
    <children>
       <HBox alignment="CENTER" prefHeight="169.0" prefWidth="323.0" style="-fx-background-color: #70D293;">
          <children>
@@ -26,7 +26,7 @@
       </Label>
       <Label prefHeight="36.0" text="Your request has been successful !" />
       <Separator prefWidth="200.0" />
-      <JFXButton cache="true" prefHeight="39.0" prefWidth="161.0" ripplerFill="#f5f2f2" style="-fx-background-color: #70D293;" styleClass="btn" text="DONE" textFill="WHITE">
+      <JFXButton cache="true" onAction="#onDone" prefHeight="39.0" prefWidth="161.0" ripplerFill="#f5f2f2" style="-fx-background-color: #70D293;" styleClass="btn" text="DONE" textFill="WHITE">
          <font>
             <Font name="System Bold" size="18.0" />
          </font>

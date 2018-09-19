@@ -1,0 +1,21 @@
+* {
+    -fx-font-family: tahoma;
+}
+
+.title {
+    -fx-font-size: 22px
+}
+
+.btn {
+    -fx-font-size: 16px;
+    -fx-background-color: #EEE;
+    -fx-cursor: hand;
+    -fx-border-width: 0 0 1px 0;
+    -fx-border-color: #CCC;
+    -fx-border-style: solid
+}
+
+.btn:hover {
+    -fx-font-weight: bold;
+    -fx-background-color: #DDD;
+}
