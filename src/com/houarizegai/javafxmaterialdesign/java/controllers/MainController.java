@@ -41,7 +41,6 @@ public class MainController implements Initializable {
             // Init Menu
             menuDrawerPane = FXMLLoader.load(getClass().getResource("/com/houarizegai/javafxmaterialdesign/resources/views/MenuDrawer.fxml"));
             stepperTouchPane = FXMLLoader.load(getClass().getResource("/com/houarizegai/javafxmaterialdesign/resources/views/StepperTouch.fxml"));
-            animateButtonsPane = FXMLLoader.load(getClass().getResource("/com/houarizegai/javafxmaterialdesign/resources/views/AnimateButtons.fxml"));
         } catch (IOException ioe) {
             ioe.printStackTrace();
         }
@@ -94,6 +93,11 @@ public class MainController implements Initializable {
 
     @FXML
     private void onAnimateButtons() {
-        new JFXDialog(root, animateButtonsPane, JFXDialog.DialogTransition.CENTER).show();
+        try {
+            animateButtonsPane = FXMLLoader.load(getClass().getResource("/com/houarizegai/javafxmaterialdesign/resources/views/AnimateButtons.fxml"));
+            new JFXDialog(root, animateButtonsPane, JFXDialog.DialogTransition.CENTER).show();
+        } catch(IOException ioe) {
+            ioe.printStackTrace();
+        }
     }
 }

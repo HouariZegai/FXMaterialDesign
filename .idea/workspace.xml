@@ -2,14 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/AnimateFX_1_2_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/AnimateFX_1_2_0__2_.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/houarizegai/javafxmaterialdesign/java/controllers/AnimateButtonsControllers.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/houarizegai/javafxmaterialdesign/resources/views/AnimateButtons.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaFXMaterialDesign.iml" beforeDir="false" afterPath="$PROJECT_DIR$/JavaFXMaterialDesign.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/houarizegai/javafxmaterialdesign/java/controllers/MainController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/houarizegai/javafxmaterialdesign/java/controllers/MainController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/houarizegai/javafxmaterialdesign/resources/views/Main.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/houarizegai/javafxmaterialdesign/resources/views/Main.fxml" afterDir="false" />
     </list>
     <ignored path="JavaFxApplication.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -65,7 +58,7 @@
     <session id="-1477752347">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="1" />
+          <entry key="project.closed" value="2" />
           <entry key="project.open.time.4" value="1" />
           <entry key="project.open.time.53" value="1" />
           <entry key="project.open.time.55" value="1" />
@@ -76,14 +69,14 @@
         <counts>
           <entry key="css" value="1554" />
           <entry key="fxml" value="214" />
-          <entry key="java" value="3275" />
+          <entry key="java" value="3324" />
           <entry key="main" value="74" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="CSS" value="1628" />
-          <entry key="JAVA" value="3275" />
+          <entry key="JAVA" value="3324" />
           <entry key="XML" value="214" />
         </counts>
       </usages-collector>
@@ -91,14 +84,14 @@
         <counts>
           <entry key="css" value="14" />
           <entry key="fxml" value="25" />
-          <entry key="java" value="30" />
+          <entry key="java" value="33" />
           <entry key="main" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CSS" value="16" />
-          <entry key="JAVA" value="30" />
+          <entry key="JAVA" value="33" />
           <entry key="XML" value="25" />
         </counts>
       </usages-collector>
@@ -141,38 +134,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/houarizegai/javafxmaterialdesign/java/controllers/MainController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="504">
-              <caret line="43" column="12" selection-start-line="43" selection-start-column="12" selection-end-line="43" selection-end-column="12" />
-              <folding>
-                <element signature="e#2176#2226#0" />
-                <element signature="method#onCustomAlert#0;class#MainController#0" />
-                <element signature="method#onMenuDrawer#0;class#MainController#0" />
-                <element signature="method#onAnimateButtons#0;class#MainController#0" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/houarizegai/javafxmaterialdesign/java/launch/Launcher.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="306">
-              <caret line="17" column="122" selection-start-line="17" selection-start-column="122" selection-end-line="17" selection-end-column="122" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/houarizegai/javafxmaterialdesign/java/controllers/AnimateButtonsControllers.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="288">
-              <caret line="16" column="26" selection-start-line="16" selection-start-column="26" selection-end-line="16" selection-end-column="26" />
+              <caret line="17" column="13" lean-forward="true" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -234,8 +200,8 @@
         <option value="$PROJECT_DIR$/src/com/houarizegai/javafxmaterialdesign/java/controllers/AnimateButtonsControlleres.java" />
         <option value="$PROJECT_DIR$/src/com/houarizegai/javafxmaterialdesign/resources/views/AnimateButtons.fxml" />
         <option value="$PROJECT_DIR$/src/com/houarizegai/javafxmaterialdesign/java/controllers/AnimateButtonsControllers.java" />
-        <option value="$PROJECT_DIR$/src/com/houarizegai/javafxmaterialdesign/java/controllers/MainController.java" />
         <option value="$PROJECT_DIR$/src/com/houarizegai/javafxmaterialdesign/java/launch/Launcher.java" />
+        <option value="$PROJECT_DIR$/src/com/houarizegai/javafxmaterialdesign/java/controllers/MainController.java" />
       </list>
     </option>
   </component>
@@ -247,9 +213,9 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="546" />
-    <option name="y" value="132" />
-    <option name="width" value="685" />
+    <option name="x" value="1" />
+    <option name="y" value="7" />
+    <option name="width" value="1281" />
     <option name="height" value="730" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -294,14 +260,6 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="javafxmaterialdesign" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="controllers" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JavaFXMaterialDesign" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JavaFXMaterialDesign" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="javafxmaterialdesign" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="launch" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -310,18 +268,6 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="javafxmaterialdesign" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JavaFXMaterialDesign" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JavaFXMaterialDesign" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="javafxmaterialdesign" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JavaFXMaterialDesign" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
           </expand>
           <select />
@@ -511,9 +457,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.6703755" visible="true" weight="0.2344932" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.6703755" visible="true" weight="0.16717096" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Capture Tool" order="3" />
@@ -559,18 +504,6 @@
   <component name="VcsManagerConfiguration">
     <option name="OFFER_MOVE_TO_ANOTHER_CHANGELIST_ON_PARTIAL_COMMIT" value="true" />
     <option name="INCLUDE_TEXT_INTO_SHELF" value="false" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/com/houarizegai/javafxmaterialdesign/java/controllers/MainController.java</url>
-          <line>34</line>
-          <properties />
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
@@ -783,8 +716,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/houarizegai/javafxmaterialdesign/java/controllers/AnimateButtonsControllers.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="16" column="26" selection-start-line="16" selection-start-column="26" selection-end-line="16" selection-end-column="26" />
+        <state relative-caret-position="360">
+          <caret line="20" column="63" lean-forward="true" selection-start-line="20" selection-start-column="63" selection-end-line="20" selection-end-column="63" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -793,13 +726,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/houarizegai/javafxmaterialdesign/java/controllers/MainController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="504">
-          <caret line="43" column="12" selection-start-line="43" selection-start-column="12" selection-end-line="43" selection-end-column="12" />
+        <state relative-caret-position="226">
+          <caret line="94" column="37" lean-forward="true" selection-start-line="94" selection-start-column="37" selection-end-line="94" selection-end-column="37" />
           <folding>
-            <element signature="e#2176#2226#0" />
             <element signature="method#onCustomAlert#0;class#MainController#0" />
             <element signature="method#onMenuDrawer#0;class#MainController#0" />
-            <element signature="method#onAnimateButtons#0;class#MainController#0" />
           </folding>
         </state>
       </provider>
@@ -807,7 +738,7 @@
     <entry file="file://$PROJECT_DIR$/src/com/houarizegai/javafxmaterialdesign/java/launch/Launcher.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
-          <caret line="17" column="122" selection-start-line="17" selection-start-column="122" selection-end-line="17" selection-end-column="122" />
+          <caret line="17" column="13" lean-forward="true" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
