@@ -1,0 +1,21 @@
+.container-stepper {
+    -fx-background-color: rgba(255, 255, 255, 0.25);
+    -fx-background-radius: 40px
+}
+
+.btn {
+    -fx-background-radius: 50%;
+    -fx-cursor: hand
+}
+
+.container-counter {
+    -fx-pref-width: 60px;
+    -fx-pref-height: 60px;
+    -fx-background-radius: 50%;
+    -fx-background-color: #FFF;
+}
+
+.txt-counter {
+    -fx-font-size: 28px;
+    -fx-fill: #6e6fff;
+}
