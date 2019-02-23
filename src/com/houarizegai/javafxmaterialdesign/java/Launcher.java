@@ -1,7 +1,6 @@
-package com.houarizegai.javafxmaterialdesign.java.launch;
+package com.houarizegai.javafxmaterialdesign.java;
 
 import javafx.application.Application;
-import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
@@ -13,17 +12,15 @@ public class Launcher extends Application {
 
     @Override
     public void start(Stage stage) {
-        Parent root = null;
         try {
-            root = FXMLLoader.load(getClass().getResource("/com/houarizegai/javafxmaterialdesign/resources/views/Main.fxml"));
+            Parent root = FXMLLoader.load(getClass().getResource("/com/houarizegai/javafxmaterialdesign/resources/views/Main.fxml"));
+            stage.setScene(new Scene(root));
+            stage.setTitle("JavaFx Material Design");
+            stage.show();
+
         } catch(IOException ioe) {
             ioe.printStackTrace();
         }
-
-        Scene scene = new Scene(root);
-        stage.setScene(scene);
-        stage.setTitle("JavaFx Material Design");
-        stage.show();
     }
 
 }
