@@ -1,4 +1,4 @@
-package com.houarizegai.javafxmaterialdesign.java.controllers;
+package com.houarizegai.fxmaterialdesign.controllers;
 
 import com.jfoenix.controls.JFXDialog;
 import com.jfoenix.controls.JFXDrawer;
@@ -33,14 +33,14 @@ public class MainController implements Initializable {
     @Override
     public void initialize(URL location, ResourceBundle resources) {
         try {
-            slideShowPane = FXMLLoader.load(getClass().getResource("/com/houarizegai/javafxmaterialdesign/resources/views/SlideShow.fxml"));
-            recyclerViewPane = FXMLLoader.load(getClass().getResource("/com/houarizegai/javafxmaterialdesign/resources/views/RecyclerView.fxml"));
-            selectedViewPane = FXMLLoader.load(getClass().getResource("/com/houarizegai/javafxmaterialdesign/resources/views/Selectedview.fxml"));
-            validAlertPane = FXMLLoader.load(getClass().getResource("/com/houarizegai/javafxmaterialdesign/resources/views/validAlert.fxml"));
-            invalidAlertPane = FXMLLoader.load(getClass().getResource("/com/houarizegai/javafxmaterialdesign/resources/views/InvalidAlert.fxml"));
+            slideShowPane = FXMLLoader.load(getClass().getResource("/views/SlideShow.fxml"));
+            recyclerViewPane = FXMLLoader.load(getClass().getResource("/views/RecyclerView.fxml"));
+            selectedViewPane = FXMLLoader.load(getClass().getResource("/views/Selectedview.fxml"));
+            validAlertPane = FXMLLoader.load(getClass().getResource("/views/validAlert.fxml"));
+            invalidAlertPane = FXMLLoader.load(getClass().getResource("/views/InvalidAlert.fxml"));
             // Init Menu
-            menuDrawerPane = FXMLLoader.load(getClass().getResource("/com/houarizegai/javafxmaterialdesign/resources/views/MenuDrawer.fxml"));
-            stepperTouchPane = FXMLLoader.load(getClass().getResource("/com/houarizegai/javafxmaterialdesign/resources/views/StepperTouch.fxml"));
+            menuDrawerPane = FXMLLoader.load(getClass().getResource("/views/MenuDrawer.fxml"));
+            stepperTouchPane = FXMLLoader.load(getClass().getResource("/views/StepperTouch.fxml"));
         } catch (IOException ioe) {
             ioe.printStackTrace();
         }
@@ -68,7 +68,7 @@ public class MainController implements Initializable {
     private void onCustomAlert() {
         Stage stage = (Stage) (root.getScene().getWindow());
         try {
-            Parent root = FXMLLoader.load(getClass().getResource("/com/houarizegai/javafxmaterialdesign/resources/views/Alert.fxml"));
+            Parent root = FXMLLoader.load(getClass().getResource("/views/Alert.fxml"));
             stage.setScene(new Scene(root));
         } catch(IOException ioe) {
             ioe.printStackTrace();
@@ -94,7 +94,7 @@ public class MainController implements Initializable {
     @FXML
     private void onAnimateButtons() {
         try {
-            animateButtonsPane = FXMLLoader.load(getClass().getResource("/com/houarizegai/javafxmaterialdesign/resources/views/AnimateButtons.fxml"));
+            animateButtonsPane = FXMLLoader.load(getClass().getResource("/views/AnimateButtons.fxml"));
             new JFXDialog(root, animateButtonsPane, JFXDialog.DialogTransition.CENTER).show();
         } catch(IOException ioe) {
             ioe.printStackTrace();

@@ -1,4 +1,4 @@
-package com.houarizegai.javafxmaterialdesign.java.controllers;
+package com.houarizegai.fxmaterialdesign.controllers;
 
 import javafx.fxml.FXML;
 

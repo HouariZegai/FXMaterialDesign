@@ -1,4 +1,4 @@
-package com.houarizegai.javafxmaterialdesign.java.controllers;
+package com.houarizegai.fxmaterialdesign.controllers;
 
 import com.jfoenix.controls.JFXDialog;
 import javafx.fxml.FXML;
@@ -26,8 +26,8 @@ public class AlertController implements Initializable {
     @Override
     public void initialize(URL location, ResourceBundle resources) {
         try {
-            validPane = FXMLLoader.load(getClass().getResource("/com/houarizegai/javafxmaterialdesign/resources/views/ValidAlert.fxml"));
-            invalidPane = FXMLLoader.load(getClass().getResource("/com/houarizegai/javafxmaterialdesign/resources/views/InvalidAlert.fxml"));
+            validPane = FXMLLoader.load(getClass().getResource("/views/ValidAlert.fxml"));
+            invalidPane = FXMLLoader.load(getClass().getResource("/views/InvalidAlert.fxml"));
         } catch(IOException ioe) {
             ioe.printStackTrace();
         }
@@ -50,7 +50,7 @@ public class AlertController implements Initializable {
     private void onClose() {
         Stage stage = (Stage) (root.getScene().getWindow());
         try {
-            Parent root = FXMLLoader.load(getClass().getResource("/com/houarizegai/javafxmaterialdesign/resources/views/Main.fxml"));
+            Parent root = FXMLLoader.load(getClass().getResource("/views/Main.fxml"));
             stage.setScene(new Scene(root));
         } catch(IOException ioe) {
             ioe.printStackTrace();
