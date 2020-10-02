@@ -1,4 +1,4 @@
-# JavaFX Meterial Design 🎉
+# JavaFX Material Design 🎉
 JavaFX Material Design Models (UI/UX)
 
 [![License MIT](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
